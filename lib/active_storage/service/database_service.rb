@@ -105,7 +105,7 @@ module ActiveStorage
     end
 
     def current_host
-      ActiveStorage::Current.url_options
+      ActiveStorage::Current.host
     end
   end
 end
